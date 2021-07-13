@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>檢舉視窗</title>
+    <link rel="stylesheet" href="css/report0712.css">
+</head>
+<body>
+    <div class="report_div">
+        <div class="report_content">
+            請選擇檢舉內容
+        </div>
+        <div class="choose_div">
+            
+            <div class="type_div">
+                <input type="checkbox" name="rep_content" class="art" id="repc">
+                <label id="label_art" for="repc">文章</label>
+                <input type="checkbox" name="rep_content" class="msg" id="repmsg">
+                <label id="label_msg" for="repmsg">留言</label>
+            </div>
+           
+        </div>
+
+        <div class="type_div2">
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="msg">
+            <label for="vehicle1"> 不雅言論</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="dis">
+            <label for="vehicle2"> 歧視/惡意言論</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="pol">
+            <label for="vehicle3"> 政治色彩濃厚</label><br>
+            <input type="checkbox" id="vehicle4" name="vehicle4" value="lllegal">
+            <label for="vehicle4"> 違法行為</label><br>
+            <input type="checkbox" id="vehicle5" name="vehicle5" value="other">
+            <label for="vehicle5"> 其它</label><br>
+         </div>
+
+         <div class="msg_div">
+            <textarea name="report_msg" id="re_msg" cols="40" rows="10" placeholder="請輸入反應內容..."></textarea>
+         </div>
+         <div class="check">
+             <button type="submit">
+                送出
+             </button>
+             <button type="submit">
+                退回
+            </button>
+         </div>
+    </div>
+</body>
+</html>

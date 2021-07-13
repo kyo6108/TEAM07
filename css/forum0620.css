@@ -1,0 +1,260 @@
+   
+ 
+/* 訓民Header/ Footer */  
+   *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+header ul li{
+    list-style:none;
+    min-width:150px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+}
+body{
+   background-color:  #F4ECCF;
+}
+div {
+    display:inline-block;
+}
+header {
+    width: 100% ;
+    display: flex;
+    background-color: rgba(245, 222, 179, .5);
+    z-index: 999;
+    /* background-color:white; */
+    /* border:solid 1px green; */
+}
+.row {
+    width: 1400px;
+    margin: auto;
+    /* border:solid 1px blue; */
+}
+.logo {
+    position: relative;
+    /* border:solid 1px red; */
+    max-width: 25%;
+    width:25%;
+    left: 25px;
+}
+.ape {
+    margin-top: 6px;
+    /* padding: 5px; */
+    width: 90px
+}
+.menu {
+    position: relative;
+    /* border: solid 1px red; */
+    max-width: 996px;
+    width: 74.5%;
+}
+header ul {
+    position:relative;
+    display: flex;
+}
+header ul li {
+    position: relative;
+    list-style: none;
+    margin-left: 50px;
+}
+header ul li a {
+    position:relative;
+    display:inline-block;
+    color: #576b67;
+    text-decoration:none;
+    top: -100%;
+    left: 2em;
+}
+.a1::after {
+    color: #576b67;
+    content: '';
+    width: 0%; 
+    height: 1px;
+    background-color:sienna;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    /* top:-5px; */
+    transition: all .3s linear;
+}
+
+.a1:hover:after {
+    width: 100%;
+}
+
+header ul li a:hover {
+color: sienna;
+}
+
+header ul li ul {
+    /* transition-property:all: */
+    height: 0px;
+    background-color: rgba(245, 222, 179, 0.7);
+    transition: 0.2s;
+    width: 190%;
+    overflow: hidden;
+    position: absolute;
+    display:list-item;
+    z-index: 997;
+}
+header ul li ul li a {
+    position:relative;
+    left: -28%;
+    margin-top: 15px;
+}
+
+footer{
+width: 100%;
+display:flex;
+margin-top: 20%;
+/* background-color:rgba(90, 180, 255, .3);  */
+background-color: rgba(255, 68, 0, .2);
+}
+.footer{
+    width: 1400px;
+    /* border: solid 1px red; */
+    /* height: 100%; */
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #463633;
+} 
+.ape-footer{
+    width: 90px;
+    position: relative;
+    left: 25px;
+    /* top:-20px; */
+    /* margin-top:50px; */
+}
+.footer-rowl{
+    width: 25%;
+}
+.footer-rowc{
+    width: 25%;
+}
+.footer-rowr{
+    width: 49%;
+}
+.rowr-p{
+    margin-left: 30%;
+    color: #463633;
+}
+.rowc-h3{
+    position: relative;
+    left: 35%;
+    top:-15px;
+}
+.h3-a{
+margin-left: 7%;
+}
+
+.rowrl{
+    position: relative;
+    display:inline-block;
+    top: -40px;
+    left: 12%;
+    margin-left: 10%;
+}
+.rowrl a {
+    color: #463633;
+}
+ 
+
+/* 訓民Header/ Footer(結束) */
+
+/* 今日熱門(開始) */
+
+
+
+.top_sty{
+    width: 80px;
+    padding: 10px;
+    background-color: rgb(206, 91, 91);
+    color: white;
+    height: 34px;
+}
+
+.top_topic{
+    width: 340px;
+    padding: 10px;
+    background-color: rgb(206, 91, 91);
+    color: white;
+}
+
+.top_num{
+    width: 55px;
+    padding: 10px;
+    background-color: rgb(206, 91, 91);
+    color: white;
+}
+.top_author{
+    width: 90px;
+    padding: 10px;
+    background-color: rgb(206, 91, 91);
+    color: white;
+}
+.top_time{
+    width: 90px;
+    padding: 10px;
+    background-color: rgb(206, 91, 91);
+    color: white;
+    border-top-right-radius: 20px;
+    
+}
+
+.hot_sty,.hot_topic , .hot_num , .hot_author , .hot_time{
+    text-align: center;
+    background-color: white;
+    padding: 8px;
+}
+
+.hot_a{
+    text-decoration: none;
+    color: rgb(235, 202, 111);
+}
+
+#hotArticle{
+    position: relative;
+    bottom: 170px;
+    right: 50px;
+    border-collapse: collapse;
+    width:750px;
+    left: 50px;
+}
+
+#img_div{
+    width: 900px;
+    height: 0px;
+    position: relative;
+    left: 810px;
+    bottom: 140px;
+}
+
+#Adv_1{
+    width: 900px;
+    height: 125px;
+}
+
+#aside{
+    position: relative;
+    width: 50px;
+    height: 127px;
+    bottom: 45px;
+    background-color: #868BCE;   
+    /* position: absolute; */
+    color: black;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#hotTopic{
+    position: absolute;
+    margin-top: 60px
+}
+

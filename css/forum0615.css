@@ -1,0 +1,249 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding:3px 100px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.logo{
+    position: relative;
+    width: 90px;
+}
+header ul {
+    position:relative;
+    display: flex;
+}
+header ul li{
+    list-style: none;
+    min-width:150px;
+}
+header ul li a{
+    display:inline-block;
+    color: #333;
+    font-weight:bold;
+    margin-left: 60px;
+    text-decoration:none;
+}
+.bt{
+    margin-left: 60px;
+}
+
+#table_div{
+    position: relative;
+    left: 100px;
+    width: 800px;
+    height: 15px;
+    bottom: 100px;
+    
+}
+
+.top_sty{
+    width: 80px;
+    padding: 10px;
+    background-color: rgb(206, 91, 91);
+    color: white;
+    height: 34px;
+}
+
+.top_topic{
+    width: 340px;
+    padding: 10px;
+    background-color: rgb(206, 91, 91);
+    color: white;
+}
+
+.top_num{
+    width: 55px;
+    padding: 10px;
+    background-color: rgb(206, 91, 91);
+    color: white;
+}
+.top_author{
+    width: 90px;
+    padding: 10px;
+    background-color: rgb(206, 91, 91);
+    color: white;
+}
+.top_time{
+    width: 90px;
+    padding: 10px;
+    background-color: rgb(206, 91, 91);
+    color: white;
+    border-top-right-radius: 20px;
+    
+}
+
+.hot_sty,.hot_topic , .hot_num , .hot_author , .hot_time{
+    text-align: center;
+    background-color: white;
+    padding: 8px;
+}
+
+.hot_a{
+    text-decoration: none;
+    color: rgb(235, 202, 111);
+}
+
+#hotArticle{
+    position: relative;
+    bottom: 28px;
+    right: 50px;
+    border-collapse: collapse;
+    width:750px
+    ;
+}
+
+#img_div{
+    width: 900px;
+    height: 0px;
+    position: relative;
+    left: 810px;
+    bottom: 140px;
+}
+
+#Adv_1{
+    width: 900px;
+    height: 125px;
+}
+
+
+#aside{
+    width: 50px;
+    height: 127px;
+    /* height: 128px; */
+    background-color: #868BCE;   
+    /* position: absolute; */
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    margin-top: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#hotTopic{
+    position: relative;
+    margin-top: 130px;
+}
+
+#area{
+    position: relative;
+    left: 20px;
+    min-width: 900px;
+}
+
+#area button{
+    border-radius: 20px;
+    background-color: #7DD7FF ;
+    opacity: 0.5;
+    border: 2px  #868BCE;
+    color: black;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    height: 20px;
+    margin-left: 5px;
+}
+
+#article_id{
+    width: 760px;
+    height: 800px;
+   
+}
+
+/*s*/
+#ttt{
+    /* border: 1px black;       */
+    width: 800px;
+    height: 590px;
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#sty_id,#topic_id,#num_id,#author_id,#time_id{
+    background-color: rgb(24, 233, 215);
+    /* color: black; */
+    font-size: 18px;
+    
+}
+
+#sty_id{
+    border-top-left-radius: 20px;
+}
+
+#time_id{
+    border-top-right-radius: 20px;
+}
+
+.a_link{
+    text-decoration: none;
+    color: black;
+}
+
+.sty{
+    width: 80px;
+    padding: 10px;
+    background-color: white;
+}
+.topic{
+    width: 380px;
+    background-color: white;
+}
+.num{
+    width: 80px;
+    background-color: white;
+}
+td.author{
+    width: 100px;
+    background-color: white;
+    padding: 20px;
+}
+.time{
+    width: 199px;
+    background-color: white;
+}
+
+#sty_id,#topic_id,#num_id,#author_id,#time_id{
+    background-color: rgb(24, 233, 215);
+    font-size: 18px;   
+}
+
+#sty_id{
+    border-top-left-radius: 20px;
+}
+
+ #time_id{
+    border-top-right-radius: 20px;
+}
+    
+.a_link{
+    text-decoration: none;
+    color: black;
+}
+
+/*s-*/
+
+#fot_div{
+    /* background-color: red; */
+    margin-top: 50px;
+    height: 80px;
+}
+
+#fot_p{
+    width: 600px;
+    position: relative;
+    left: 250px;
+    /* background-color: brown; */
+    top: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+}

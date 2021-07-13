@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/article0711.css">
+</head>
+<body>
+    <header>
+        <h5><a href="">註冊</a>&emsp;|&emsp;<a href="">登入</a></h5>
+        <div class="header-div">
+            <div>
+                <a href="#"><img class="ape" src="img\圖片1.png" alt=""></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a class="a1" href="#">線上商城</a></li>
+                    <li><a class="a1" href="#">展覽活動</a>
+                        <ul class="menu-ul">
+                            <li class="a2"><a href="">全年檔期</a></li>
+                            <li class="a2"><a href="">優惠資訊</a></li> 
+                            <li class="a2"><a href="">報名查詢</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="a1" href="#">地圖導覽</a></li>
+                    <li><a class="a1" href="#">廠商專區</a>
+                        <ul class="menu-ul">
+                            <li class="a2"><a href="">廠商後台</a></li>
+                            <li class="a2"><a href="">場地租借</a></li> 
+                            <li class="a2"><a href="">活動查詢</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="a1" href="#">討論區</a></li>
+                    <li><a class="a1" href="#">聯絡客服</a>
+                        <ul class="menu-ul">
+                            <li class="a2"><a href="">意見回饋</a></li>
+                            <li class="a2"><a href="">常見問答</a></li>
+                            <li class="a2"><a href="">贈品兌換</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="a1" href="#">會員中心</a></li>
+                    <li>
+                    <a class="a1-shop" href="#">
+                    <img class="shop" src="img\Y9WA1I1.png" alt="">
+                    </a>
+                    </li>
+                <ul>
+            </div>
+        </div>
+    </header>
+
+    <main class="main_area">
+        <section class="main_post">
+            <div class="post_div">
+                主題分類:
+                <select name="type" id="post_type" name="article_type">
+                    <option value="share">心得</option>
+                    <option value="activity">展訊</option>
+                    <option value="promote">推廣</option>
+                    <option value="hate">黑特</option>
+                    <option value="others">其它</option>
+                </select>
+            </div>
+            <div class="theme_div">
+                文章主題:<input type="text" value="theme" class="theme_input" name="post_theme">
+            </div>
+            <hr id="h"> 
+            <div class="input_article">
+                註:請注意用詞，請勿出現任何人身攻擊、政治言論以及不雅言詞。共同維持一個優良風氣的平台。
+            </div>
+            <div class="main_article">
+            <textarea name="article_msg" id="text_article" cols="50" rows="50" placeholder="請輸入內容...">
+            </textarea>
+            <div class="btn">
+               
+                    <button type="submit">
+                        粗體字效果
+                    </button>
+                    <button type="submit">
+                        斜體字效果
+                    </button>
+                    <button type="submit">
+                        螢光筆效果
+                    </button>
+                    <label for="favcolor">選擇顏色</label>
+                    <input type="color" id="favcolor" name="favcolor">
+                    <label for="myfile">選擇檔案</label>
+                    <input type="file" id="myfile" name="myfile">
+
+                
+
+            </div>
+
+            </div>
+       
+        </section>
+        <div class="adv">
+            <img src="img/廠商文宣示範.png" alt="1" class="img_1">
+            <img src="img/文宣2.png" alt="2" class="img_2">
+        </div>
+
+        <div class="zoom">
+            這裡是聊天室，還沒教到，所以先用一個板塊代表
+        </div>
+      
+    </main> 
+
+    <footer>
+        <h2 class="footer-h2">展覽好康情報</h2>
+          <div class="footer-div">
+              <div>
+                  <a href="#"><img class="footer-ape" src="img\圖片1.png" alt=""></a>
+                  <h3 class="footer-h3">艾普藝森國際展覽</h3>
+              </div>
+              <div class="footer-center">
+                  <ul>
+                      
+                      <li>
+                          <a href="#"><li><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCABQAFADAREAAhEBAxEB/8QAHAABAQACAwEBAAAAAAAAAAAAAAgGBwEDBQQC/8QAOxAAAQMCBAMFBAcIAwAAAAAAAQIDBAAFBgcREgghMRMiQVFhFUKBoRQWMjNicXUYIyQlNlKCk5Kzwv/EABwBAQACAgMBAAAAAAAAAAAAAAAGBwQFAQIDCP/EADsRAAECBAMEBwUGBwEAAAAAAAEAAgMEBREGITESQVFxExRhgZGx0SIzcqHBBxUyQuHwFiMkNGKi0rL/2gAMAwEAAhEDEQA/AMXqnF8TpREoiURKIlESiJREoiURKIlESiLKcG5W4tzAXph+wTbk3rtL7be1lJ8i4rRI+JrLgykeY90wny8dFuJGkT9SP9JBLhxtl4mw+a2pbeCXMec0FPeyLco+5JmEkf60KHzrbNoc24Z2Hf6XUvhYBrEQXdsN5u9AVxc+CfMiA0VMJtNyUPcjTCCf9iUj50dQ5tulj3+tki4BrMMXbsu5O9QFqnGGWeKsAOhGILDNtaSdqXXW9WlHyS4NUn4GtRGlY8v71hH74qHT1JnqabTcEs7SMvHQ+KxmsValKIlESiLlCFLUEpBUonQADUk1yuQCTYKy8gOD+HFhxcQY8jfSZjgDjFlc+7ZHUF4e8r8HQeOp5CaU6jNAEWZFzw9fRXnhvBENjGzdVbdxzDNw+LiezQb76CqosRiDGbjxmW48dpIShppISlAHQADkBUtADRYDJXCxjYbQxgsBuC7a5XdKIuibBjXKI7Flx2pUZ1O1xl9AWhY8ik8iK6uaHDZcLhecSGyK0siAEHUHMFSbxBcIEZEKViLAcdTTjQLsmyI1UlaepUx4g/g6H3dOQMRqNGFjFlhzHp6eCpnEuCWBjpylNsRmWfVv/PhwMekaHQ8jUMVIpREoiojgvywYxjjyTiC4Mh6DYUocaQsapXJXr2Z9doSpX57aklElRGjGK4ZN893grOwJSWz086bii7YViPiOnhYnnZWli7H+H8CJgm/XJu3Cc72EftEqV2i/IbQfMdam8aYhS9ulda+ividqUpTtjrUTZ2jYa5nuXtzZjNvhvypDgajsNqdccPRKUjUn4AV7OcGguOgWfEe2EwxHmwAueQWDuZ74CZw/EvjmJI6LVLkKisyVNuBKnUjVSdNuo0BHMjSsE1CVDBEL/ZJtvUfOIqU2A2aMcbDjYGx1Go0WQYrx1YcD2RF4vdyag2xa0oTJIUtKioEp02g66gGsiNMQoDOkiOsFspyoytPg9YmXhrMs9ddNLrHsR584CwlObh3bEceHJcZRIS2ppxWraxqlXdSRzHOseJUJWCdl77HXetZNYjpUk8Q5iOGkgHQ6HTQL2cEZlYazHYlPYburd0biqSh5TaFp2FQJA7wHXQ17QJqDMgmC69lnU+qyVUa50nE2w3XXK/MBRNxi5YMYEzFau1vZDNtvyFyOzSNEokJI7UD0O5KvzUfKoPWpUS8fbaMnZ9+9UHjikNp1QEeELMi3PJw/F5g95Wg6jyrlKIrm4D2mhlffHBp26rwtK/PaGGdvzKqnlAA6u479r6BfQf2dBv3bFO/bP/ltvqvzxqfc5ffq5/8AFK5pB+JcY90k/j9FvnH39C4j/TZP/Uqt/Me5fyPkrFqX9lH+B3kVAVwimdw54MjBWwvYklN7tNdNUIGtV64bUhDH+RXzfFZ0mH5VnGK4fIL78wcb3zD2WVwymxa2v2tZLiyuDIOqkuRwFd3XxSApJQf7Tpy2gV6TMeJDlzIx/wATSLcv3osip1CZlqa+gz49uE4Fp4tzy5Zgt7Mty9jMNMhWd9mEbCiMZu/V6FpaXEKWF/ww72iefd617zN+tttD2/ZGXcs6ph5rMLYl+nPRM9jPP2BnlwVH8NiJiLZfPpmXjWX57Zra002tH0nuq7x3c+70+NSWmbWy7ag9H9VaOFREEOL0kkJfMZAEbWvHgsD49WmjgfDLh07dNxUlHntLR3fMJrX4gA6Fh33+ijv2jBvUoBOu0fLP6KJagyoNKIqf4Gsw2LLim64UmOhtF2Sl+IVHQds2DuQPVSDr/h61KqDMhkR0B35tOY/fyVt/Z9U2wJmJIRDbpM28xqO8eSorPjJBWddts8ZF9VYnLdIU+l5MXtyokAdN6NCNNddaklQkevNaA7ZseF/qFZ2IsPmvw4TBF6MsJN7X+oWMYN4bsR4cucl+55n3W/xH4UiIqHJac2auNlAWdz6gduuumnh1FYkCmRYTiXxy4EEWz3jmVqZHC05KxHOjT7ojS1zbEG3tAi+bzprovP8A2RE/UCwYZ+tZ/lV1cuZlezvvdwSNmzte7pt66n8q6fc/8hkHpPwm97fqsb+Ch1GDJdY928vvs63tlbay01ueSy3Pjh2tedzcB8zvYt4hnYmeiP229o6ktqTuTroeYOvLU+dZdQprJ4A32XDfa+S3WIsMQK+GO29iI381r3HAi47s8s+KxbHHClOxRiyJfrXjuTh6VHgMQQqNDUXNG2wgqC0vJI3AdPmaxY9IdFiiKyKWkADTh3haeoYOizc02agTZhuDWtybnkLahw14LYGTeV13yxhXNi7YxnYvXLcQttyalaSwEgggbnF9dfTpWwkpSJKhwfEL78d3zKktDpExSWRGzEy6NtEWvfK3NztVLPG3mMxibHUHDcJ0OxrEhfbqSeRkOabk+u1KUj0JUPCopXZkRYwgt0b5lVBj6qNm51knDNxCvf4jqO4Ad9wpvqMqrUoi74E+Ta50eZDfXGlx3EutPNK2qQtJ1CgfAgiuzXFhDmmxC9IcR8F4iQzZwNwRuIV8ZA8UtpzIhxrPiB9m1YpSA3+8IQzNPTc2egUfFH/HXoLBp1VZMgQ4ps/5Hl6L6Nw3i+XqjGy82QyNpwDu0dvZ4dm/KkCsdKIlESiLQfEnxKQ8src/YbE+3KxY+jaSnRSYKSPtr8N+n2U/E8tAqP1OptlWmFCN3n5fqq4xViqHSYZlZU3jn/XtPbwHectYEkSHZb7j7zinnnFFa3FnVSlE6kknqSar0kk3K+cHOc9xc43JXXXC6pREoiURbWwJxPZhYBZbjRrx7TgtgBMS6o7dIHgArULA9AoCtvL1WalxYOuOBz/VTGnYtq1NAYyLttG52fz18CqUyG4s5eamMo2GbrYGYcqQ04tuXDeUUaoSVEKQoEgEA89x56cudSan1d03FEF7LE7wrUw5jOJWJtslHghriDYg5ZC+h9VRcuWxAjOyZLzceO0krcedWEoQkdSSeQHrUlJDRcmwVoPe2G0vebAak6BSXntxlIQiRYsAOb1nVt6+FPJPmGAep/GfgOiqiE/WtYcr4+nqqYxFjoAOlaSewv8A+fU93FSFJkuzJDr8h1b77qitx1xRUpaidSSTzJJ8ahpJJuVSbnOe4vebk6lddcLqlESiJREoiURZ7krminKDGoxCbULutMZxhDBf7LapWne3bVeRGmnjWwkZvqcbpdm+XJSOg1cUSc630e3kRa9td97FfXmtn9i3N14t3SYIlqCtzdrh6oYHkVc9Vn1UTp4AV3m6hHnDZ5s3gNP1XtWcST9aNo7rM3NGQ7+J591lretYoslESiJREoiURKIlESiJREoiURKIlEX/2Q==" alt=""></a>
+                      </li>
+                      <li>
+                          <a href="#"><li><img src="data:image/jpeg;base64,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" alt=""></a>
+                      </li>
+                      <li>
+                          <a href="#"><li><img src="data:image/jpeg;base64,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" alt=""></a>
+                      </li>
+                  <ul>
+              </div>
+              <div class="footer-menu">
+                  <ul>
+                      <li><a href="#">關於我們</a></li>
+                      <li><a href="#">會員協議</a></li>
+                      <li><a href="#">聯絡我們</a></li>
+                      <li><a href="#">加入我們</a></li>
+                  </ul>
+  
+              </div>
+          </div>
+                      <h3 class="copy" >Copyrights ©2021 All Rights Reserved by A.P.E</h3>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+<!-- <select name="type" id="post_type" name="article_type">
+    <option value="share">心得</option>
+    <option value="activity">展訊</option>
+    <option value="promote">推廣</option>
+    <option value="hate">黑特</option>
+    <option value="others">其它</option>
+</select> -->

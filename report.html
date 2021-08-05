@@ -37,16 +37,31 @@
          </div>
 
          <div class="msg_div">
-            <textarea name="report_msg" id="re_msg" cols="40" rows="10" placeholder="請輸入反應內容..."></textarea>
+            <textarea name="" id="re_msg" cols="30" rows="10" placeholder="請輸入檢舉說明..."></textarea>
          </div>
          <div class="check">
-             <button type="submit">
+             <button id="sub" type="submit">
                 送出
              </button>
-             <button type="submit">
+             <button id="ret" type="submit">
                 退回
             </button>
          </div>
     </div>
+    <script src="jq/jquery-3.6.0.min.js"></script>
+    <script>
+        $('#sub').on('click' , function(){
+            if((window.confirm('確認送出嗎?')) == true){
+                console.log((window.confirm('確認送出嗎?')))
+                alert('送出成功')
+                // window.close();
+            }else{
+                alert('請再度確認');
+            }
+        })
+
+
+
+    </script>
 </body>
 </html>
